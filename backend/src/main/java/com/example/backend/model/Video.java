@@ -28,6 +28,6 @@ public class Video {
 
     @ManyToOne
     @JoinColumn(name = "anime_id")
-    @JsonBackReference// khóa ngoại trong bảng videos liên kết với bảng anime
+    @JsonBackReference
     private Anime anime;
 }
